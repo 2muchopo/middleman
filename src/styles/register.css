@@ -1,0 +1,116 @@
+.register{
+    height: 560px;
+    background-color: rgba(128, 0, 128, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    .registers{background-color: purple;
+        height: 520px;
+        width: 1000px;
+        border-radius: 16px;
+        padding: 2px 40px;}
+    .register h3{
+    font-size:28px;}
+
+    .register form{border: 2px solid whitesmoke;
+        height: 380px;
+        padding-top: 15px;
+        border-radius: 8px;
+    }
+    .register form input{height: 35px;
+        width: 90%;
+        background-color: whitesmoke;
+        font-size: 18px;
+        caret-color: purple;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        padding-left: 10px}
+
+        .register form input::placeholder{padding-left: 5px;}
+
+.register form label{font-size: 17px;
+font-weight: bold;
+display: block;
+width: 90%;
+text-align: left;
+
+padding-left: 5px;
+}
+.register form .sign{display: flex;
+justify-content: space-around;}
+
+.register form .sign .first{
+width:45%;
+padding-right: 20px;
+border-right: 1px solid whitesmoke;}
+.register form .sign .second{
+width: 45%;}
+.reg-button{
+text-align: center;
+margin-top: 7px;}
+
+.reg-button button{background-color: #b309b3;
+width: 300px;
+height: 50px;
+border-radius: 25px;
+font-size: 20px;}
+
+        
+  @media screen and (max-width: 800px) {
+    .register{
+        height: 860px;
+        background-color: rgba(128, 0, 128, 0.637);
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+    
+        .registers{background-color: purple;
+            height: 870px;
+            width: 100%;
+            border-radius: 16px;
+            padding: 2px 20px;}
+        .register h3{
+        font-size:28px;}
+    
+        .register form{border: 2px solid whitesmoke;
+            height: 740px;
+            padding-top: 15px;
+            border-radius: 8px;
+            
+        }
+        .register form .sign{display: flex;
+            flex-direction: column;
+            text-align: center;
+    }
+            
+        .register form input{height: 45px;
+            width: 90%;
+            background-color: whitesmoke;
+            font-size: 18px;
+            caret-color: purple;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+            padding-left: 10px}
+
+            .register form .sign .first{
+                width:100%;
+                padding-right: 0px;
+                border-right: none;}
+                .register form .sign .second{
+                width: 100%;}
+                .register form label{font-size: 17px;
+                    font-weight: bold;
+                    display: block;
+                    width: 90%;
+                    text-align: left;
+                    
+                    padding-left: 17px;
+                    }
+                    
+                
+    
+    
+  }  
